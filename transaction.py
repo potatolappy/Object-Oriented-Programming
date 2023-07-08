@@ -84,7 +84,7 @@ class Transaction:
             return
 
         # entering a new list to update the item
-        new_qty = input('Please enter new item quantity: ')
+        new_qty = int(input('Please enter new item quantity: '))
 
         # editing the list based on the index
         self.cart[item_index][2] = new_qty
@@ -102,10 +102,10 @@ class Transaction:
             return
 
         # entering a new list to update the item
-        new_price = input('Please enter new item price: ')
+        new_price = int(input('Please enter new item price: '))
 
         # editing the list based on the index
-        self.cart[item_index][2] = new_price
+        self.cart[item_index][3] = new_price
 
         return tabulate(self.cart, headers=headers, tablefmt='grid')
 
@@ -160,15 +160,15 @@ class Transaction:
 
         # we order the elif branches based on the highest price first
         # so customer won't get away with less discount
-        if original_price > 500.000:
+        if original_price > 500000:
             discount = original_price * 0.10
             discounted_price = original_price - discount
             return f'Your total price after 10% discount is: {discounted_price}'
-        elif original_price > 300.000:
+        elif original_price > 300000:
             discount = original_price * 0.08
             discounted_price = original_price - discount
             return f'Your total price after 8% discount is: {discounted_price}'
-        elif original_price > 200.000:
+        elif original_price > 200000:
             discount = original_price * 0.05
             discounted_price = original_price - discount
             return f'Your total price after 5% discount is: {discounted_price}'
