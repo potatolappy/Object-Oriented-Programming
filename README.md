@@ -25,4 +25,13 @@ We also add another feature:
 
 **Chapter 3: **
 
-![kasir](/flowchart.jpg)
+user flow chart will go as follow, several key highlight:
+
+  1. at the end of every action that involves a function, it will always return a current tabulated version of the shopping cart, along with its price
+  2. every action will always go back to the menu, except when the user pick **check-out**
+  3. when checking out, the price will be discounted along with this criteria
+       - transaction valued over IDR 500k --> 10% discount
+       - transaction valued over IDR 300k --> 8% discount
+       - transaction valued over IDR 200k --> 5% discount
+
+![kasir](/flowchart.png)
