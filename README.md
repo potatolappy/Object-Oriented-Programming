@@ -24,3 +24,5 @@ We also add another feature:
   1. ``` calc_price() ``` to see the shopping cart total value, pre-discount
 
 **Chapter 3: **
+
+![kasir](/flowchart.jpg)
