@@ -1,4 +1,5 @@
 import datetime  # to generate date & time of user beginning to input data
+import uuid  # to generate random ID
 from transaction import *
 
 # landing page
@@ -17,12 +18,14 @@ while True:
 
 # Generating date & time
 tday = datetime.datetime.utcnow()
+ID = uuid.uuid1()
 
 # printing success page
 print("=" * 40)
 
 print(f'Welcome back, {customer_name}')
 print(f'Date & time: {tday}')
+print(f'Transaction ID: {ID}')
 
 print("=" * 40)
 
