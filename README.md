@@ -1,5 +1,5 @@
 # pacmann-cashier
-an self-cashier system for OOP practice with pacmann.io | July 2023
+_a self-cashier system for OOP practice with pacmann.io | July 2023_
 
 ![kasir](/img.jpg)
 
@@ -23,7 +23,7 @@ There are several features the company want:
 We also add another feature:
   1. ``` calc_price() ``` to see the shopping cart total value, pre-discount
 
-**Chapter 3: **
+**Chapter 3: Flow**
 
 user flow chart will go as follow, several key highlight:
 
