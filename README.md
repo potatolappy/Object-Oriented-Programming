@@ -1,10 +1,26 @@
 # pacmann-cashier
-an self-cashier system for OOP practice with pacmann.io
+an self-cashier system for OOP practice with pacmann.io | July 2023
 
 ![kasir](/img.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae nisi quis odio rutrum iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas venenatis est in aliquet. Fusce congue volutpat turpis, et porttitor urna accumsan sit amet. Proin vestibulum massa sed aliquet fringilla. Etiam viverra ligula enim, vitae accumsan metus tempor vitae. Proin laoreet elit sed turpis placerat, fringilla maximus lorem rhoncus. Etiam accumsan tortor vitae sapien aliquet, a bibendum purus tempor. Sed ut tellus viverra, mattis augue id, dignissim justo. Integer in nisi vestibulum, pellentesque lacus non, pulvinar tortor.
+**Chapter 1: Context**
 
-Maecenas eleifend auctor sapien, vel blandit felis sagittis eu. Nulla gravida nulla id mi venenatis, sed pharetra turpis dignissim. Nullam euismod ut felis nec dictum. Suspendisse ac ante nulla. Vivamus diam nisi, finibus viverra urna ut, tristique suscipit quam. Quisque facilisis tincidunt odio vitae eleifend. Cras mollis, odio scelerisque lacinia dignissim, lorem ex ultrices dui, nec congue orci mauris eu quam. In accumsan egestas rhoncus. Fusce eleifend massa nunc, et pretium diam placerat eu. Phasellus porttitor nulla neque, et vehicula erat volutpat in. Sed placerat mattis euismod. Cras scelerisque neque tempor, tempus risus sit amet, maximus libero. Morbi porta lacinia velit in accumsan. Phasellus tempor sit amet lorem at viverra.
+This is a project exercise from pacmann.io in 2023 for a beginner introduction to OOP programming. A company in Indonesia is looking to develop a cashier system where user could input item name, price and quantity and calculate the total price of the transactions (and additional discount added if meeeting certain conditions)
 
-Curabitur semper sodales ex, eu dictum magna cursus at. Phasellus tristique, dui id varius convallis, nunc ligula faucibus lorem, at dictum risus sem sit amet eros. Aenean porta, erat vitae congue laoreet, libero neque bibendum justo, et dapibus nibh sapien in mi. Pellentesque accumsan ligula in sagittis gravida. Donec tristique velit vitae nibh varius iaculis vitae nec leo. Integer ut ultricies nulla. Mauris lobortis dapibus magna eget accumsan. Proin ullamcorper lectus tortor, vel mattis massa euismod nec. Suspendisse iaculis tellus in tempor convallis. Praesent laoreet vitae massa quis hendrerit. Proin porttitor faucibus nisl. Aenean id orci vel ipsum cursus congue eu convallis sem. Sed ut nibh feugiat, posuere orci in, viverra magna. Curabitur bibendum nisi eu justo tincidunt, eget finibus ex ullamcorper. Sed lobortis ipsum ac arcu vestibulum ullamcorper.
+**Chapter 2: Features Requirement**
+
+There are several features the company want:
+
+  1. ``` add_item() ``` to add item name, price and quantity into the shopping cart
+  2. ``` update_item_name() ``` to edit the previous item name to a new one
+  3. ``` update_item_price() ``` to edit the previous item price to a new one
+  4. ``` update_item_qty() ``` to edit the previous item quantity to a new one
+  5. ``` delete_item() ``` to delete one row of item name, price and quantity
+  6. ``` reset_transaction() ``` to start the shopping cart from empty again
+  7. ``` check_order() ``` to see the current shopping cart
+  8. ``` total_price() ``` to see the total price, discounted if needed
+
+We also add another feature:
+  1. ``` calc_price() ``` to see the shopping cart total value, pre-discount
+
+**Chapter 3: **
