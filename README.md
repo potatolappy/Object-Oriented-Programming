@@ -1,7 +1,7 @@
 # pacmann-cashier
 an self-cashier system for OOP practice with pacmann.io
 
-![kasir](/img.png)
+![kasir](/img.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae nisi quis odio rutrum iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas venenatis est in aliquet. Fusce congue volutpat turpis, et porttitor urna accumsan sit amet. Proin vestibulum massa sed aliquet fringilla. Etiam viverra ligula enim, vitae accumsan metus tempor vitae. Proin laoreet elit sed turpis placerat, fringilla maximus lorem rhoncus. Etiam accumsan tortor vitae sapien aliquet, a bibendum purus tempor. Sed ut tellus viverra, mattis augue id, dignissim justo. Integer in nisi vestibulum, pellentesque lacus non, pulvinar tortor.
 
