@@ -35,3 +35,10 @@ user flow chart will go as follow, several key highlights:
        - transaction valued over IDR 200k --> 5% discount
 
 ![kasir](/flowchart.png)
+
+**Chapter 4: Test Cases**
+
+Let's begin with the first test case provided by pacmann, the user want to input:
+1. Item name: Ayam Goreng, Qty: 2, Price: 20000
+2. Item name: Pasta Gigi, Qty: 3, Price: 15000
+
