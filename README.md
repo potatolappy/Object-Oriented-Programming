@@ -76,7 +76,7 @@ Apparently, the user also think they will be fine without Ayam Goreng today, we 
 
 as shown, the shopping cart is now empty
 
----- **Test Case 4: Reset Transaction**
+---- **Test Case 4: Check-out**
 
 Now in an ideal world for supermarket where user didn't mind at all about price, instead of deleting Pasta Gigi & Ayam Goreng they want to add:
 1. One Mainan Mobil for IDR 200k
