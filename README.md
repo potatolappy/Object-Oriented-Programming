@@ -38,13 +38,70 @@ user flow chart will go as follow, several key highlights:
 
 **Chapter 4: Test Cases**
 
+---- **Test Case 1: Adding Item**
+
 Let's begin with the first test case provided by pacmann, the user want to input:
 1. Item name: Ayam Goreng, Qty: 2, Price: 20000
 2. Item name: Pasta Gigi, Qty: 3, Price: 15000
 
 First the user will input their name into the program
 
-![kasir](/1.png)
+![kasir](/img/1.png)
+
+Afterwards the user will be shown a menu
+
+![kasir](/img/2.png)
+
+in this test case, we will pick option 1 to begin inputting Ayam Goreng into the shopping cart. This will use ```add_item()``` and ```calc_price()``` function
+
+![kasir](/img/3.png)
+
+After user input all the necessary detail, a menu will be shown again, this time we will select 1 to add Pasta Gigi into the shopping cart, using ```add_item()```
+
+![kasir](/img/4.png)
+
+---- **Test Case 2: Deleting Item**
+
+Now imagine the user thinks 85k is too much for grocery and want to delete Pasta Gigi, we can use ```delete_item()``` function and selecting option 2
+
+![kasir](/img/5.png)
+
+as shown, the item has been deleted
+
+---- **Test Case 3: Reset Transaction**
+
+Apparently, the user also think they will be fine without Ayam Goreng today, we can use ```reset_transaction()``` function and selecting option 6
+
+![kasir](/img/rst.png)
+
+as shown, the shopping cart is now empty
+
+---- **Test Case 4: Reset Transaction**
+
+Now in an ideal world for supermarket where user didn't mind at all about price, instead of deleting Pasta Gigi & Ayam Goreng they want to add:
+1. One Mainan Mobil for IDR 200k
+2. Five Mi Instan for IDR 3k
+
+![kasir](/img/6.png)
+
+User can pick the last option 7 for checkout, and the program will run function ```total_price()``` 
+
+![kasir](/img/7.png)
+
+As shown, the price has been calculated with discount and the program end
+
+**Final Chapter: Conclusion and additional thoughts**
+
+As shown, it is a simple rudimentary program to excercise using OOP. the Transaction class allow us to add items, update, delete, reset and calculate the price with ease. some additional thoughts for future improvement
+
+1. This program best be use for cashier instead of customer since customer can easily add whatever price they want, in the future it should be a list of item (can be in dictionary) where the customer only add the item name and quantity, and the item's price is immutable
+2. A way to add unique ID to each transaction conducted, and record how many time a customer shops. If the supermarket has a loyalty program it can be implemented here to loyal and big-spender customer
+
+
+
+
+
+
 
 
 
