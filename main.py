@@ -56,7 +56,7 @@ while stop_program:
     while boolean:
         try:
             customer_input = int(input('Please select your next action: '))
-            len_choices = range(1, 9)
+            len_choices = range(1, 8)
             if customer_input not in len_choices:
                 print('Invalid data, please input the number corresponding to the menu')
             else:
