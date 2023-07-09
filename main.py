@@ -16,7 +16,7 @@ while True:
     else:
         break
 
-# Generating date & time
+# Generating ID, date & time
 tday = datetime.datetime.utcnow()
 ID = uuid.uuid1()
 
@@ -105,6 +105,7 @@ while stop_program:
             print("\n====== Check-out")
             print(trnsct_123.check_order())
             print(trnsct_123.total_disc_price())
+            print('\n===Thank you for shopping with us! Please bring the receipt to the nearest payment station')
 
             # ending the program
             stop_program = False
