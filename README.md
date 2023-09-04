@@ -1,11 +1,11 @@
 # pacmann-cashier
-_a self-cashier system for OOP practice with pacmann.io | July 2023_
+_a self-cashier system for OOP practice | July 2023_
 
 ![kasir](/img.jpg)
 
 **Chapter 1: Context**
 
-This is a project exercise from pacmann.io in 2023 for a beginner introduction to OOP programming. A company in Indonesia is looking to develop a cashier system where user could input item name, price and quantity and calculate the total price of the transactions (and additional discount added if meeeting certain conditions)
+This is a project exercise for a beginner introduction to OOP programming. A company in Indonesia is looking to develop a cashier system where user could input item name, price and quantity and calculate the total price of the transactions (and additional discount added if meeeting certain conditions)
 
 **Chapter 2: Features Requirement**
 
