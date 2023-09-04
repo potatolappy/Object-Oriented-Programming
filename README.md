@@ -1,5 +1,5 @@
-# pacmann-cashier
-_a self-cashier system for OOP practice | July 2023_
+# cashier system
+_a ]cashier system for OOP practice | July 2023_
 
 ![kasir](/img.jpg)
 
