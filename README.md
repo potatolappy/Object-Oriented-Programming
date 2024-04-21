@@ -1,5 +1,5 @@
 # cashier system
-_a ]cashier system for OOP practice | July 2023_
+_a cashier system for OOP practice | July 2023_
 
 ![kasir](/img.jpg)
 
